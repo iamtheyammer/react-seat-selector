@@ -51,6 +51,8 @@ class SeatSelector extends React.Component {
   }
 
   handleSeatSelection(seat) {
+    if(!seat.available) return alert('You can\'t select this seat because it\'s not available.');
+
     if(this.state.selectedSeats.indexOf(seat.id) != -1) {
       return this.setState((currentState) => {
         return {
