@@ -1,5 +1,7 @@
 # react-seat-selector
 
+## [Visit it here](https://iamtheyammer.github.io/react-seat-selector/)
+
 Extremely simple **demo** of a seat selector in React.
 
 Please keep in mind that this is using the react development script and the
